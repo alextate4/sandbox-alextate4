@@ -1,18 +1,43 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <input v-model="num1" type="number" />
+    <input v-model="num2" type="number" />
+    = {{ result }}
+    <div>
+      <button @click="calculate">Click</button>
+      {{ resultClick }}
+    </div>
+    <AppButton @click="calculate">Button</AppButton>
+    <AppButton to="/about">Router Link</AppButton>
+    <AppButton href="/about">&lt;a&gt; Link</AppButton>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+import AppButton from '../components/ui/AppButton.vue';
+import multiplication from '../utils/math';
 
 export default {
-  name: "Home",
+  name: 'Home',
   components: {
-    HelloWorld
+    AppButton
+  },
+  data() {
+    return {
+      num1: 0,
+      num2: 0,
+      resultClick: 0
+    };
+  },
+  computed: {
+    result() {
+      return multiplication(this.num1, this.num2);
+    }
+  },
+  methods: {
+    calculate() {
+      this.resultClick = multiplication(this.num1, this.num2);
+    }
   }
 };
 </script>
