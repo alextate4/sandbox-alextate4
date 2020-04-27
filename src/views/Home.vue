@@ -11,21 +11,17 @@
     <AppButton to="/about">Router Link</AppButton>
     <AppButton href="/about">&lt;a&gt; Link</AppButton>
   </div>
-  <!-- <div>
-    <LocationButton></LocationButton>
-  </div> -->
 </template>
 
 <script>
 import AppButton from '../components/ui/AppButton.vue';
-// import multiplication from '../utils/math';
-import calculateDistance from '../utils/calculateDistance';
-// import distanceComponent from '../components/ui/distanceComponent.vue';
-// import locationButton from '../components/ui/locationButton';
+import multiplication from '../utils/math';
 
 export default {
   name: 'Home',
-  components: { AppButton },
+  components: {
+    AppButton
+  },
   data() {
     return {
       num1: 0,
@@ -35,12 +31,12 @@ export default {
   },
   computed: {
     result() {
-      return calculateDistance(this.num1, this.num2);
+      return multiplication(this.num1, this.num2);
     }
   },
   methods: {
     calculate() {
-      this.resultClick = calculateDistance(this.num1, this.num2);
+      this.resultClick = multiplication(this.num1, this.num2);
     }
   }
 };
