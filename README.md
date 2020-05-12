@@ -1,5 +1,9 @@
 # kansas-solar-system
 
+## Develop Server
+
+[Netlify Develop Server](https://quirky-stonebraker-c55af0.netlify.app/)
+
 ## Project setup
 
 ```
