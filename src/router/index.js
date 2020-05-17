@@ -11,6 +11,13 @@ const routes = [
     component: Home
   },
   {
+    path: '/planet/:name',
+    name: 'PlanetInfo',
+    props: true,
+    component: () =>
+      import(/* webpackChunkName: "mercury" */ '../views/PlanetInfo.vue')
+  },
+  {
     path: '/mercury',
     name: 'Mercury',
     // route level code-splitting
