@@ -11,25 +11,14 @@ const routes = [
     component: Home
   },
   {
-    path: '/mercury',
-    name: 'Mercury',
+    path: '/planet/:name',
+    name: 'PlanetInfo',
+    props: true,
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () =>
-      import(/* webpackChunkName: "mercury" */ '../views/Mercury.vue')
-  },
-  {
-    path: '/earth',
-    name: 'Earth',
-    component: () =>
-      import(/* webpackChunkName: "earth" */ '../views/Earth.vue')
-  },
-  {
-    path: '/jupiter',
-    name: 'Jupiter',
-    component: () =>
-      import(/* webpackChunkName: "jupiter" */ '../views/Jupiter.vue')
+      import(/* webpackChunkName: "planetinfo" */ '../views/PlanetInfo.vue')
   }
 ];
 
