@@ -1,8 +1,7 @@
 <template>
   <div class="container">
-    <div class="p-16">
-      <input type="number" class="border border-gray-500 rounded-md p-1" />
-    </div>
+    <nuxt-link to="/demo-simple">Demo - Simple</nuxt-link>
+    <nuxt-link to="/demo-vuex">Demo - Vuex</nuxt-link>
   </div>
 </template>
 
