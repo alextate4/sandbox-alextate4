@@ -2,32 +2,22 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        blue: {
-          BGDarkBlue: '#0a0e28',
-          earthBlue: '#4b97d2',
-          neptuneBlue: '#4469b1',
-          uranusBlue: '#2a9bb8',
-        },
-        brown: {
-          plutoBrown: '#876d67',
-          saturnBrown: '#c5a95c',
-        },
-        grey: {
-          VeryLightGrey: '#eaeaea',
-        },
-        lavender: {
-          MercuryLavender: '#7a65ac',
-        },
-        orange: {
-          jupiterOrange: '#c86a28',
-          venusOrange: '#d99822',
-        },
-        red: {
-          marsRed: '#ad2524',
-        },
-        yellow: {
-          sunflowerYellow: '#dcb13c',
-        },
+        bgIndigo: '#0a0e28',
+        DarkTeal: '#1a95a4',
+        earthBlue: '#4b97d2',
+        'greeny-blue': '#57bda2',
+        jupiterOrange: '#c86a28',
+        marsRed: '#ad2524',
+        mercuryLavender: '#7a65ac',
+        neptuneBlue: '#4469b1',
+        plutoBrown: '#876d67',
+        saturnYellow: '#c5a95c',
+        slateGray: '#7c7d8b',
+        sunflowerYellow: '#dcb13c',
+        UranusBlue: '#2a9bb8',
+        venusOrange: '#d99822',
+        veryLightBlue: '#d3e1e6',
+        veryLightGray: '#eaeaea',
       },
     },
   },

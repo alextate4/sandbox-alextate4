@@ -1,8 +1,6 @@
 <template>
   <div class="container">
-    <div class="p-16">
-      <input type="number" class="border border-gray-500 rounded-md p-1" />
-    </div>
+    <nuxt-link to="/planet">Planet Page</nuxt-link>
   </div>
 </template>
 
