@@ -1,7 +1,12 @@
 <template>
   <div class="container">
     <div class="p-16">
-      <input type="number" class="border border-gray-500 rounded-md p-1" />
+      <h1>KDD Home</h1>
+      <nuxt-link
+        to="content-example"
+        class="text-blue-neptuneBlue hover:underline"
+        >Nuxt Content example</nuxt-link
+      >
     </div>
   </div>
 </template>
