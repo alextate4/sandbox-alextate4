@@ -13,6 +13,13 @@ export default {
       loading: 'Yes it is loading.',
     };
   },
+  head() {
+    return {
+      script: [
+        { src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' },
+      ],
+    };
+  },
 };
 </script>
 
