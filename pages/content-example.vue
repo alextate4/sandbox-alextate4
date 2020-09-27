@@ -1,10 +1,12 @@
 <template>
   <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title text-primary">kss</h1>
-      <nuxt-link to="/">Nuxt Link to Home</nuxt-link>
-      <NuxtContent
+    <div class="p-16">
+      <nuxt-link to="/" class="text-blue-neptuneBlue hover:underline"
+        >Nuxt Link to Home</nuxt-link
+      >
+      <p>{{ document.title }}</p>
+      <p>{{ document.description }}</p>
+      <nuxt-content
         class="prose prose-sm sm:prose lg:prose-lg xl:prose-2xl mx-auto"
         :document="document"
       />
@@ -15,16 +17,13 @@
 <script>
 export default {
   async asyncData({ $content }) {
-    const document = await $content('hello').fetch();
+    const document = await $content('blog', '2020-09-27-testing').fetch();
     return { document };
   },
   data() {
     return {
       loading: 'Yes it is loading.',
     };
-  },
-  mounted() {
-    console.log('this');
   },
 };
 </script>
