@@ -7,9 +7,12 @@
         <span class="pl-2 absolute left-0 text-xl">&lt;</span>
       </div>
       <div class="text-center">
-        <h1 class="text-4xl font-voyager-heavy text-veryLightGray">Mercury</h1>
-        <span class="text-xl font-montserrat-medium text-mercuryLavender"
-          >The Swift Planet</span
+        <h1 class="text-4xl lowercase font-voyager-heavy text-veryLightGray">
+          mercury
+        </h1>
+        <span
+          class="text-xl uppercase font-montserrat-medium text-mercuryLavender"
+          >the swift planet</span
         >
       </div>
       <div
@@ -25,4 +28,4 @@
 export default {};
 </script>
 
-<style scoped></style>
+<style lang="scss" scoped></style>
