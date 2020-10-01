@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-display: swap;
+  src: url('~assets/fonts/Montserrat-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat-Medium';
+  font-display: swap;
+  src: url('~assets/fonts/Montserrat-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Voyager-Heavy';
+  font-display: swap;
+  src: url('~assets/fonts/VoyagerHeavy.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Voyager-Light';
+  font-display: swap;
+  src: url('~assets/fonts/VoyagerLight.otf') format('opentype');
+}

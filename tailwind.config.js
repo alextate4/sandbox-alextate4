@@ -19,6 +19,12 @@ module.exports = {
         veryLightBlue: '#d3e1e6',
         veryLightGray: '#eaeaea',
       },
+      fontFamily: {
+        montserrat: 'Montserrat',
+        'montserrat-medium': 'Montserrat-Medium',
+        'voyager-light': 'Voyager-Light',
+        'voyager-heavy': 'Voyager-Heavy',
+      },
     },
   },
   variants: {},
