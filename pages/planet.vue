@@ -4,7 +4,7 @@
     <main class="bg-bgIndigo">
       <img
         class="h-64 w-64 mx-auto"
-        src="../assets/planets/mercury.png"
+        src="~/assets/planets/mercury.png"
         alt="An image of planet Mercury"
       />
       <PlanetNav />
