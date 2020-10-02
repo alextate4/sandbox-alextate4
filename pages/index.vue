@@ -1,13 +1,6 @@
 <template>
   <div class="container">
-    <div class="p-16">
-      <h1>KDD Home</h1>
-      <nuxt-link
-        to="content-example"
-        class="text-blue-neptuneBlue hover:underline"
-        >Nuxt Content example</nuxt-link
-      >
-    </div>
+    <nuxt-link to="/planet">Planet Page</nuxt-link>
   </div>
 </template>
 
