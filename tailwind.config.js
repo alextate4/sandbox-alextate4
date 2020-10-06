@@ -21,9 +21,16 @@ module.exports = {
       },
       fontFamily: {
         montserrat: 'Montserrat',
-        'montserrat-medium': 'Montserrat-Medium',
-        'voyager-light': 'Voyager-Light',
-        'voyager-heavy': 'Voyager-Heavy',
+        voyager: 'Voyager',
+      },
+      fontSize: {
+        14: ['14px', '18px'],
+        16: ['16px', '24px'],
+        20: ['20px', '24px'],
+        36: ['36px', '45px'],
+      },
+      scale: {
+        invert: '-1',
       },
     },
   },
