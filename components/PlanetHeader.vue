@@ -2,14 +2,25 @@
   <div>
     <nav class="px-4 h-12 flex justify-between bg-bgIndigo">
       <div class="flex items-center">
-        <div class="text-veryLightGray text-xl">&lt;</div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="fill-current text-veryLightGray"
+          width="11.854"
+          height="16.239"
+          viewBox="0 0 11.854 16.239"
+        >
+          <path
+            d="M14.4 22.35a.76.76 0 0 1-.4-.15l-10.65-8L14 6.26a.754.754 0 1 1 .9 1.21l-9 6.75 9 6.78a.75.75 0 0 1 .1 1.05.74.74 0 0 1-.6.3z"
+            transform="translate(-3.35 -6.111)"
+          />
+        </svg>
         <span
-          class="ml-2 uppercase text-base tracking-wider leading-6 font-montserrat-medium text-veryLightGray"
+          class="ml-2 uppercase text-16 tracking-wider font-montserrat font-medium text-veryLightGray"
           >back</span
         >
       </div>
       <div
-        class="flex items-center uppercase text-base tracking-wider leading-6 font-montserrat-medium text-veryLightGray"
+        class="flex items-center uppercase text-16 tracking-wider font-montserrat font-medium text-veryLightGray"
       >
         menu
       </div>
