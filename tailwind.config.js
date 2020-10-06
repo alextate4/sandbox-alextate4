@@ -36,6 +36,10 @@ module.exports = {
   },
   variants: {},
   plugins: [require('@tailwindcss/typography')],
+  future: {
+    removeDeprecatedGapUtilities: true,
+    purgeLayersByDefault: true,
+  },
   purge: {
     enabled: process.env.NODE_ENV === 'production',
     content: [
