@@ -1,7 +1,5 @@
 <template>
   <div>
-    <!--document dump-->
-    <!-- {{ planet }} -->
     <PlanetHeader />
     <main class="bg-bgIndigo">
       <img
