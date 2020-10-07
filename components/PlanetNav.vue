@@ -24,7 +24,8 @@
           {{ planet.title }}
         </h1>
         <span
-          class="text-20 uppercase font-montserrat font-medium text-mercuryLavender"
+          class="text-20 uppercase font-montserrat font-medium"
+          :class="`text-${planetName}`"
           >{{ planet.altTitle }}</span
         >
       </div>
@@ -57,6 +58,14 @@ export default {
         return {};
       },
     },
+  },
+  data() {
+    return {
+      planetName: '',
+    };
+  },
+  mounted() {
+    this.planetName = this.$route.params.name;
   },
 };
 </script>
