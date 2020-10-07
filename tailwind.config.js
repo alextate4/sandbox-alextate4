@@ -33,6 +33,26 @@ module.exports = {
         invert: '-1',
       },
     },
+    typography: {
+      default: {
+        css: {
+          color: '#eaeaea',
+          fontFamily: 'Montserrat',
+          fontWeight: '500',
+          fontSize: '16px',
+          img: {
+            marginTop: '2.5rem',
+            marginRight: 'auto',
+            marginBottom: '0',
+            marginLeft: 'auto',
+          },
+          p: {
+            marginTop: '1.75rem',
+            marginBottom: '0',
+          },
+        },
+      },
+    },
   },
   variants: {},
   plugins: [require('@tailwindcss/typography')],

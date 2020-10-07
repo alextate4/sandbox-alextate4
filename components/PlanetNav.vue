@@ -21,11 +21,11 @@
         <h1
           class="text-36 tracking-wider lowercase font-voyager font-black text-veryLightGray"
         >
-          mercury
+          {{ planet.title }}
         </h1>
         <span
           class="text-20 uppercase font-montserrat font-medium text-mercuryLavender"
-          >the swift planet</span
+          >{{ planet.altTitle }}</span
         >
       </div>
       <div
@@ -49,7 +49,16 @@
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    planet: {
+      type: Object,
+      default: () => {
+        return {};
+      },
+    },
+  },
+};
 </script>
 
 <style lang="scss" scoped></style>
