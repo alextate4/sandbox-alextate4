@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <nuxt-link to="/planet">Planet Page</nuxt-link>
+    <nuxt-link to="/planet/mercury">Planet Page</nuxt-link>
   </div>
 </template>
 

@@ -1,10 +1,10 @@
 <template>
   <div>
     <nav class="px-4 h-12 flex justify-between bg-bgIndigo">
-      <div class="flex items-center">
+      <nuxt-link to="/" class="flex items-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="fill-current text-veryLightGray"
+          class="pointer-events-none fill-current text-veryLightGray"
           width="11.854"
           height="16.239"
           viewBox="0 0 11.854 16.239"
@@ -15,10 +15,10 @@
           />
         </svg>
         <span
-          class="ml-2 uppercase text-16 tracking-wider font-montserrat font-medium text-veryLightGray"
+          class="pointer-events-none ml-2 uppercase text-16 tracking-wider font-montserrat font-medium text-veryLightGray"
           >back</span
         >
-      </div>
+      </nuxt-link>
       <div
         class="flex items-center uppercase text-16 tracking-wider font-montserrat font-medium text-veryLightGray"
       >

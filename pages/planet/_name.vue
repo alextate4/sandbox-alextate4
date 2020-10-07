@@ -4,7 +4,7 @@
     <main class="bg-bgIndigo">
       <img
         class="h-64 w-64 mx-auto"
-        src="~/assets/planets/mercury.png"
+        :src="planet.planetImage"
         alt="An image of planet Mercury"
       />
       <PlanetNav :planet="{ title: planet.title, altTitle: planet.altTitle }" />
@@ -21,15 +21,18 @@
       >
         {{ planet.leadIn }}
       </p>
-      <nuxt-content :document="planet" class="prose" />
+      <nuxt-content
+        :document="planet"
+        class="text-veryLightGray font-montserrat font-medium"
+      />
     </main>
   </div>
 </template>
 
 <script>
 export default {
-  async asyncData({ $content }) {
-    const planet = await $content('planets', 'mercury').fetch();
+  async asyncData({ $content, params }) {
+    const planet = await $content('planets', params.name).fetch();
     return { planet };
   },
   data() {
