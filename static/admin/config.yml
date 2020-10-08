@@ -10,7 +10,7 @@ public_folder: /img
 collections:
   - name: 'planet'
     label: 'Planet'
-    format: 'frontmatter'
+    format: 'json'
     folder: 'content/planets'
     create: true
     slug: '{{slug}}'
@@ -24,7 +24,21 @@ collections:
         widget: 'object'
         fields:
           - { label: 'Planet Image', name: 'src', widget: 'image' }
-          - { label: 'Alt Text', name: 'alt', widget: 'text' }
-          - { label: 'Title', name: 'title', widget: 'text' }
+          - { label: 'Image Alt Text', name: 'alt', widget: 'string' }
+          - { label: 'Image Title', name: 'title', widget: 'string' }
       - { label: 'Planet Lead-In Text', name: 'leadIn', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'Prose Section'
+        name: 'prose'
+        widget: 'object'
+        fields:
+          - { label: 'Figure', name: 'fig_src', widget: 'image' }
+          - { label: 'Alt Text', name: 'fig_alt', widget: 'string' }
+          - { label: 'Title', name: 'fig_title', widget: 'string' }
+          - { label: 'Figure Caption', name: 'fig_caption', widget: 'string' }
+          - {
+              label: 'Body',
+              name: 'body',
+              buttons: ['link'],
+              editor_components: [''],
+              widget: 'markdown',
+            }

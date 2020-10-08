@@ -8,7 +8,10 @@
         :alt="planet.featured_img.alt"
         :title="planet.featured_img.title"
       />
-      <PlanetNav :planet="{ title: planet.title, altTitle: planet.altTitle }" />
+      <PlanetNav
+        :planet="{ title: planet.title, altTitle: planet.altTitle }"
+        :planet-name="planetName"
+      />
       <div
         class="h-12 w-64 mx-auto mt-10 flex items-center justify-center rounded-full bg-veryLightGray bg-opacity-25"
       >
@@ -22,10 +25,27 @@
       >
         {{ planet.leadIn }}
       </p>
-      <nuxt-content
-        :document="planet"
-        class="text-veryLightGray font-montserrat font-medium"
-      />
+      <section>
+        <img
+          class="mt-10 mx-auto"
+          :src="planet.prose.fig_src"
+          :alt="planet.prose.fig_alt"
+          :title="planet.prose.fig_title"
+        />
+        <p
+          class="mt-6 px-12 text-14 font-montserrat font-light italic"
+          :class="`text-${planetName}`"
+        >
+          {{ planet.prose.fig_caption }}
+        </p>
+        <p
+          v-for="paragraph in formattedProse"
+          :key="paragraph.id"
+          class="px-12 text-16 text-montserrat font-medium text-veryLightGray"
+        >
+          {{ paragraph }}
+        </p>
+      </section>
     </main>
   </div>
 </template>
@@ -38,8 +58,19 @@ export default {
   },
   data() {
     return {
+      planetName: '',
+      formattedProse: [],
       loading: 'Yes it is loading.',
     };
+  },
+  mounted() {
+    this.planetName = this.$route.params.name;
+    this.formatProse();
+  },
+  methods: {
+    formatProse() {
+      this.formattedProse = this.planet.prose.body.split(`\n\n`);
+    },
   },
 };
 </script>
