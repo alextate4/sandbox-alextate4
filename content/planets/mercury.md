@@ -1,7 +1,10 @@
 ---
 title: Mercury
 altTitle: The Swift Planet
-planetImage: /img/mercury_img.png
+featured_img:
+  src: /img/mercury_img.png
+  alt: An image of planet Mercury
+  title: Planet Mercury
 leadIn: Most of us know Mercury is the closest planet to the Sun but did you
   know it’s not the hottest?
 ---

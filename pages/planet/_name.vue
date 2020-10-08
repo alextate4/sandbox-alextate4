@@ -4,8 +4,9 @@
     <main class="bg-bgIndigo">
       <img
         class="h-64 w-64 mx-auto"
-        :src="planet.planetImage"
-        alt="An image of planet Mercury"
+        :src="planet.featured_img.src"
+        :alt="planet.featured_img.alt"
+        :title="planet.featured_img.title"
       />
       <PlanetNav :planet="{ title: planet.title, altTitle: planet.altTitle }" />
       <div
