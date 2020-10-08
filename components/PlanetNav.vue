@@ -58,14 +58,13 @@ export default {
         return {};
       },
     },
+    planetName: {
+      type: String,
+      default: '',
+    },
   },
   data() {
-    return {
-      planetName: '',
-    };
-  },
-  mounted() {
-    this.planetName = this.$route.params.name;
+    return {};
   },
 };
 </script>
