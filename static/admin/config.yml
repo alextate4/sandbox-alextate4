@@ -32,6 +32,13 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Alternate Title', name: 'altTitle', widget: 'string' }
-      - { label: 'Planet Image', name: 'planetImage', widget: 'image' }
+      - label: 'Planet Image'
+        name: 'planetImage'
+        widget: 'object'
+        fields:
+          - { label: 'Image', name: 'src', widget: 'image' }
+          - { label: 'Alt text', name: 'alt', widget: 'string' }
+          - { label: 'Title', name: 'title', widget: 'string' }
+
       - { label: 'Planet Lead-In Text', name: 'leadIn', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }

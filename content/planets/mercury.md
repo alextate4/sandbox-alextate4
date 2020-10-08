@@ -1,19 +1,16 @@
 ---
-title: Mercury
-altTitle: The Swift Planet
-planetImage: /img/mercury_img.png
-leadIn: Most of us know Mercury is the closest planet to the Sun but did you
-  know it’s not the hottest?
+title: "Mercury 2: The Sequel"
+altTitle: The Mercury Planet
+planetImage:
+  src: /img/mercury_img.png
+  alt: Yes this is alt text
+  title: This is the title, congrats
+leadIn: Lead in text ftw
 ---
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus mollis convallis. Pellentesque blandit velit velit, quis eleifend libero convallis vel. Integer at ex in odio suscipit porta. Suspendisse potenti. Cras dignissim enim vitae mauris tincidunt, ut ultrices risus luctus. Praesent sed massa vestibulum, hendrerit diam et, rutrum ex. Donec lacinia dolor condimentum semper aliquam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin a sem nec metus efficitur rhoncus.
 
-![An infographic for Mercury](/img/mercury_infographic.svg 'Mercury Infographic')
+Mauris ut auctor lacus, at laoreet lacus. Phasellus sed molestie tortor, in varius justo. Nulla nec porta enim. Sed interdum dolor sed odio maximus, nec finibus ex pretium. Maecenas non lorem turpis. Nam pharetra erat lectus, vel varius lectus condimentum volutpat. Donec quis augue vulputate, laoreet risus a, accumsan tellus. Mauris eu sem finibus, tincidunt nisi ut, mollis risus. Praesent ornare tortor rutrum congue feugiat. Nulla a ultricies augue. Etiam convallis laoreet dui, vehicula tempus nisl varius ut. Aliquam ut neque sodales risus euismod euismod ut non sapien. Praesent tristique nisl et nunc suscipit, sed dignissim odio consectetur. Phasellus consectetur bibendum elit tristique fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet molestie dui, in aliquam tortor ultrices nec.
 
-Mercury does have the biggest temperature fluctuations in the solar system. Temperature on the dayside can be as hot as 800°F (430°C) but the night side is -290°F (-180°C). That’s a 1130°F (610°C) difference!
+Morbi eget neque pharetra, aliquet felis a, maximus tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam efficitur commodo ante eu sagittis. Nam tempor enim id lorem sollicitudin tempor. In hac habitasse platea dictumst. Duis enim lacus, aliquet in volutpat non, commodo vel magna. Nulla non volutpat nunc. Duis facilisis dui vitae purus accumsan sollicitudin. Praesent vel augue facilisis, sagittis turpis vel, ultrices tellus. Phasellus nec lacus auctor, vehicula enim sed, commodo tortor. Aliquam ultrices iaculis ligula, at tempor urna vestibulum et. Ut non sodales turpis.
 
-It is also the fastest moving planet. It goes around the Sun at 105,906 mph (170,503 km/h) compared to Earth that only goes 66,622 mph (107,208 km/h). Which amounts to 29 miles (47 km) every second!
-
-It spins almost completely upright. It’s only titled 1/30 of a degree on its axis- the next closest is Jupiter with a 3.1 degree tilt. Mercury is also mostly core. The crust is only 250 miles (400 km) thick making 85% of the planet the core. To compare, Earth’s core is 55% its mass.
-
-Because of how the orbits line up, Mercury actually spends more time being closer to Earth than Venus.
-
-![An image of Mercury's topography](/img/mercury_topography.png 'Mercury Topography')
+Phasellus quis semper elit. Quisque venenatis feugiat vehicula. Praesent enim sem, sodales quis tempus sed, bibendum ac dolor. Nam a commodo nulla. Aenean tempus lobortis lectus, a imperdiet arcu eleifend vitae. Proin egestas justo ligula, eget venenatis ante volutpat quis. Quisque id rutrum urna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin facilisis, tellus et venenatis suscipit, nibh sapien ullamcorper libero, gravida lobortis neque orci quis libero. Mauris ornare, elit quis rhoncus tempor, lacus nisi suscipit nulla, in iaculis felis quam et enim.
